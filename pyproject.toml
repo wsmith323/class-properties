@@ -1,0 +1,19 @@
+
+[tool.poetry]
+name = "class-properties"
+version = "0.1.0"
+description = "Utilities for class-level properties."
+authors = ["Warren Smith"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "class_properties", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pytest-cov = "^5.0.0"
+mypy = "^1.0.0"
+ruff = "^0.6.0"
+sphinx = "^7.0.0"
